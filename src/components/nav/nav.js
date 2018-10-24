@@ -3,9 +3,10 @@ import { Link } from 'gatsby'
 import './nav.styl'
 
 const links = [
+  { url: '#', title: 'Resume' },
   { url: '/knowledge', title: 'Knowledge Base' },
   { url: '/work', title: 'Work Samples' },
-  { url: '#', title: 'Resume' },
+  { url: '/blog', title: 'Blog' },
 ]
 
 const Nav = () => (

@@ -8,10 +8,27 @@ nav
     margin-right 1rem
   a
     font-family Metropolis Semi Bold
+    transform translateZ(0) skew(-10deg)
     text-transform uppercase
     display inline-block
     text-decoration none
     color white
-    transition all .2s ease
+    transition all .5s ease
+    position: relative;
+    &:before
+      position absolute
+      content ''
+      bottom -2.5px
+      left 0
+      height 5px
+      width 0
+      transition all .3s linear
+      background: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);
+      background: linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);
+
     &:hover
-      color red
+      &:before
+        width 100%
+  a[aria-current="page"]
+    &:before
+      width: 100%

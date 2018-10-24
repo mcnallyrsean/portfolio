@@ -6,15 +6,20 @@ import './header.styl'
 const Header = ({ siteTitle }) => (
   <div>
     <header>
-      <h1>
+      <h1
+        style={{
+          border: '2.5px solid white',
+          borderRadius: '50%',
+        }}
+      >
         <Link
           to="/"
           style={{
             textDecoration: 'none',
-            fontSize: '5rem',
-            border: '2.5px solid white',
-            borderRadius: '50%',
-            padding: '4vh',
+            fontSize: '3rem',
+
+            padding: '4vh 3vh',
+            transform: 'skew(-10deg)',
           }}
           className="logo"
           alt="Sean McNally"

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 import Header from './header/header'
-import favicon from '../images/favicon.jpg'
+import favicon from '../images/favicon.ico'
 
 import './layout.css'
 import '../../styles/fonts.styl'
@@ -29,7 +29,7 @@ const Layout = ({ children }) => (
             { name: 'keywords', content: 'sample, something' },
           ]}
           link={[
-            { rel: 'shortcut icon', type: 'image/jpg', href: `${favicon}` },
+            { rel: 'shortcut icon', type: 'image/ico', href: `${favicon}` },
           ]}
         >
           <html lang="en" />
@@ -45,6 +45,7 @@ const Layout = ({ children }) => (
             minHeight: '100vh',
             marginLeft: 'auto',
             fontFamily: 'Metropolis Medium',
+            position: 'relative',
           }}
         >
           {children}
