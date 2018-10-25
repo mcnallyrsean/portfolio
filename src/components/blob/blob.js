@@ -158,7 +158,7 @@ class Blob extends React.Component {
           <a
             href={this.props.url}
             target="_blank"
-            rel="nofollow"
+            rel="noopener noreferrer"
             className="image-container"
           >
             <img src={this.props.screenshot} alt="" />

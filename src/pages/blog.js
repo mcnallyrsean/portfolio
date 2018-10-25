@@ -4,7 +4,13 @@ import Layout from '../components/layout'
 const Blog = () => (
   <Layout>
     <div className="container">
-      <p>Come back soon for the 🔥 takes...</p>
+      <p>
+        Come back soon for the
+        <span role="img" aria-label="Fireeeee">
+          🔥
+        </span>
+        takes...
+      </p>
     </div>
   </Layout>
 )
