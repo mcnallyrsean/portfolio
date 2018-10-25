@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Nav from '../nav/nav'
+import Contact from '../contact/contact'
 import './header.styl'
 
 const Header = ({ siteTitle }) => (
@@ -28,6 +29,7 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
       <Nav />
+      <Contact />
     </header>
   </div>
 )

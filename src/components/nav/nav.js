@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import './nav.styl'
 
 const links = [
-  { url: '#', title: 'Resume' },
+  { url: '/resume', title: 'Resumé' },
   { url: '/knowledge', title: 'Knowledge Base' },
   { url: '/work', title: 'Work Samples' },
   { url: '/blog', title: 'Blog' },

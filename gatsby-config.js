@@ -23,5 +23,6 @@ module.exports = {
     'gatsby-plugin-offline',
     'gatsby-plugin-stylus',
     'gatsby-plugin-styled-components',
+    'gatsby-plugin-react-svg',
   ],
 }
