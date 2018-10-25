@@ -76,6 +76,11 @@ const BlobContent = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  @media all and (max-width: 568px) {
+    width: 100%;
+    left: 10px;
+    z-index: 10000;
+  }
   &:before {
     position: absolute;
     content: '';

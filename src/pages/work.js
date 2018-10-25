@@ -19,7 +19,7 @@ const samples = [
     name: 'Urbanbelly',
     screenshot: urbanbelly,
     url: 'https://www.urbanbellychicago.com/',
-    designer: 'Sujanna Trestcott',
+    designer: 'Sue Janna Truscott',
     myRole: 'Frontend + Backend',
     tech: 'Javascript, CSS, Wordpress',
   },
@@ -27,7 +27,7 @@ const samples = [
     name: 'Mile High',
     screenshot: milehigh,
     url: 'https://www.milehighgolftrail.com/',
-    designer: 'Sujanna Trestcott',
+    designer: 'Sue Janna Truscott',
     myRole: 'Frontend + Backend',
     tech: 'Javascript, CSS, Wordpress',
   },
@@ -37,6 +37,9 @@ const List = styled.ul`
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  @media all and (max-width: 568px) {
+    margin: 0;
+  }
 `
 class Work extends React.Component {
   constructor(props) {

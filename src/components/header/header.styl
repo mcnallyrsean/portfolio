@@ -9,9 +9,19 @@ header
   flex-direction column
   justify-content center
   align-items: center
+  @media all and (max-width: 568px)
+    // position relative
+    width 100%
+    height auto
+    flex-direction row
+    z-index 9999
+    background rgba(34,34,34,.75)
   // padding: 1.5rem 1.5rem
   h1
     margin: 0 0 50px
+    @media all and (max-width: 568px){
+      margin: 0;
+    }
   .logo
     font-family: Metropolis Semi Bold
     color white

@@ -54,6 +54,10 @@ const Item = styled.li`
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 40%;
+  @media all and (max-width: 990px) {
+    width: 90%;
+  }
   &:before {
     position: absolute;
     content: '';
@@ -83,9 +87,6 @@ const Item = styled.li`
     z-index: -1;
     animation: ${rotateBackwards} 10s infinite linear;
     opacity: 0.5;
-  }
-  &:hover {
-    cursor: pointer;
   }
 `
 

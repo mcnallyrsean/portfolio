@@ -10,6 +10,12 @@ const StyledList = styled.ul`
   list-style: none;
   padding-left: 0;
   margin: 0;
+  @media all and (max-width: 568px) {
+    position: absolute;
+    justify-content: flex-end;
+    bottom: -15%;
+    right: 21.5%;
+  }
   li {
     &:nth-of-type(2) {
       margin: 0 10px;
