@@ -56,8 +56,7 @@ const Resume = () => (
           </p>
         </div>
         <div className="resume-block__item">
-          <h3>Village Of West Dundee</h3>
-          <p>Administrative Analyst</p>
+          <h3>Village Of West Dundee - Administrative Analyst</h3>
           <p>JANUARY 2014 - OCTOBER 2015</p>
           <p>
             Oversaw the creation of 2 new municipal taxes | Aided in the
